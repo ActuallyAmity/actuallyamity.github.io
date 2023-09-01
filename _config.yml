@@ -1,0 +1,41 @@
+# Site settings
+title: Amtea's Website # The title of your site
+description: Amity is a content creator who loves to stream and make videos about games! # Short description of your site that will appear in search engines
+baseurl: '' # The subpath of your site, e.g. /blog
+url: 'https://example.com' # The base hostname & protocol for your site
+
+# Build settings
+client:
+  intro: Yoo, I'm # Hello, I'm { name }!
+  name: Amity # John Doe | Jane D.
+  profession: 'Content Creator & Pro Kart Driver' # Doer of things
+  portrait_url: https://static-cdn.jtvnw.net/jtv_user_pictures/ed62e830-5212-422e-9aa9-724205d2f539-profile_image-300x300.png # Leave blank to use local portrait in assets/
+
+social:
+  - platform: Twitch
+    handle: itsamitea
+  - platform: YouTube
+    handle: '@actuallyamity'
+  - platform: Twitter
+    handle: 'amitylonghead'
+  - platform: Twitter
+    handle: 'alastorkarting'
+
+theme: flow
+colors:
+  preset:
+    3
+    # 1 = Elegant Lavender
+    # 2 = Candy Crush
+    # 3 = Cotton Candy
+    # 4 = Coral Reef
+  use_custom: # Toggle colors defined below this
+  primary:
+  secondary:
+  tertiary:
+  accent:
+  accent_alt:
+  text:
+
+exclude:
+  - serve.rb
