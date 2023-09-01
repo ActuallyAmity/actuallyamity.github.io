@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
 
   # Triggers the workflow when the build changes
-  # push:
-  #   paths:
-  #     - '_site/**/*'
+  push:
+    paths:
+      - '_site/**/*'
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
