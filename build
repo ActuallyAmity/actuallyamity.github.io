@@ -1,0 +1,32 @@
+#!/usr/bin/env ruby
+
+# Step 1: Run 'bundle install'
+puts("Installing Bundle")
+system("bundle install")
+
+# Step 2: Run 'bundle exec jekyll build'
+puts("Building Site")
+system("bundle exec jekyll build")
+
+# Step 3: Check if there are any file changes
+puts("Checking for changes")
+status = `git status --porcelain`
+
+if status.empty?
+  puts "No file changes. Skipping commit and push."
+else
+  # Step 4: Prompt for confirmation before committing
+  print "Do you want to commit and push the changes? (y/n): "
+  confirmation = gets.chomp.downcase
+
+  if confirmation == "y"
+    # Step 5: Stage all tracked file changes
+    system("git add -A")
+
+    # Step 6: Commit and push
+    system('git commit -m "🚀 Deploy codespace build"')
+    system("git push")
+  else
+    puts "Commit and push skipped."
+  end
+end

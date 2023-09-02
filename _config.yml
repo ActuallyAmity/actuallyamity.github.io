@@ -39,3 +39,4 @@ colors:
 
 exclude:
   - serve.rb
+  - build
