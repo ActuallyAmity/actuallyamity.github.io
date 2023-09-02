@@ -2,7 +2,7 @@
 title: ActuallyAmity/itsamitea # The title of your site
 description: Amity is a content creator who has way too much time on their hands! # Short description of your site that will appear in search engines
 baseurl: '' # The subpath of your site, e.g. /blog
-url: 'https://example.com' # The base hostname & protocol for your site
+url: 'https://ActuallyAmity.github.io' # The base hostname & protocol for your site
 
 # Build settings
 client:
