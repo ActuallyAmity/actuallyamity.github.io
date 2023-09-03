@@ -17,9 +17,11 @@ social:
   - platform: YouTube
     handle: '@actuallyamity'
   - platform: Twitter
-    handle: 'amitylonghead'
+    handle: amitylonghead
   - platform: Twitter
-    handle: 'alastorkarting'
+    handle: alastorkarting
+  - platform: Reddit
+    handle: r/itsamity
 
 theme: flow
 colors:
@@ -39,4 +41,3 @@ colors:
 
 exclude:
   - serve.rb
-  - build
