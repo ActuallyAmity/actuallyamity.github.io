@@ -41,3 +41,4 @@ colors:
 
 exclude:
   - serve.rb
+  - vendor/**
