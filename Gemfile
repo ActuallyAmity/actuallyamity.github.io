@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3.2"
-gem "flow", tag: 'flow-v0.1.31', github: 'benjammin4dayz/jekyll-themes'
+gem "flow", tag: 'flow-v0.1.4', github: 'benjammin4dayz/jekyll-themes'
 
 # Yoinked optimizations from Jekyll Minima
 
