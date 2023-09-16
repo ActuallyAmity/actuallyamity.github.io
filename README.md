@@ -1,3 +1,8 @@
+# Amity's Website
+
+[![Website Status](https://img.shields.io/website?up_message=ONLINE&up_color=green&down_message=OFFLINE&down_color=red&url=https%3A%2F%2Factuallyamity.github.io&style=for-the-badge&label=status)](https://actuallyamity.github.io)
+![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Factuallyamity.github.io%2Fmetadata%2Fversion.json&style=for-the-badge&logo=ruby)
+
 # Flow Theme
 
 [![GitHub release (with filter)](https://img.shields.io/github/v/release/benjammin4dayz/jekyll-themes?sort=semver&filter=flow*&style=for-the-badge&logo=ruby&label=Latest%20Version&link=https%3A%2F%2Fgithub.com%2Fbenjammin4dayz%2Fjekyll-themes%2Freleases%3Fq%3DFlow%26expanded%3Dtrue)](https://github.com/benjammin4dayz/jekyll-themes/releases?q=Flow&expanded=true)
