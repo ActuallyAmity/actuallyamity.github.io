@@ -1,7 +1,7 @@
 # Site settings
 title: ActuallyAmity/itsamitea # The title of your site
-description: Amity is a content creator who has way too much time on their hands! # Short description of your site that will appear in search engines
-baseurl: '' # The subpath of your site, e.g. /blog
+tagline: Content Creator # Short description that will appear next to the title of the browser tab
+description: Amity is a content creator who has way too much time on their hands! # Full description of your site that will appear in search engines (120-160 characters)
 url: 'https://ActuallyAmity.github.io' # The base hostname & protocol for your site
 
 # Build settings
@@ -48,5 +48,4 @@ plugins:
   - jekyll-seo-tag
 
 exclude:
-  - serve.rb
   - README.md
