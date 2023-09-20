@@ -14,13 +14,14 @@ class Twitch {
   }
 }
 
-FlowTheme.Utils.lazyLoad('twitch-embed', 30, Twitch.embedStream);
-
 const EMBED_ID = 'youtube-embed';
 const YouTube = new FlowTheme.EmbedHelper.YouTube(
   'UCQ9nP4I7Ql3o-9jmMPd2I2A',
   EMBED_ID
 );
-YouTube.fetchVideo().then((video) =>
-  FlowTheme.Utils.lazyLoad(EMBED_ID, 30, video.embed)
-);
+
+FlowTheme.lazy('twitch-embed', 30, Twitch.embedStream);
+
+YouTube.fetchVideoData().then((data) => {
+  FlowTheme.lazy(EMBED_ID, 30, data.mostRecent.embed());
+});
