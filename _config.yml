@@ -8,7 +8,7 @@ url: 'https://ActuallyAmity.github.io' # The base hostname & protocol for your s
 client:
   intro: whats up gamers im # Hello, I'm { name }!
   name: amity # John Doe | Jane D.
-  profession: 'Content Creator, Pro Kart Driver and Loud Annoying Person' # Doer of things
+  profession: Content Creator, Pro Kart Driver and Loud Annoying Person # Doer of things
   portrait_url: https://static-cdn.jtvnw.net/jtv_user_pictures/ed62e830-5212-422e-9aa9-724205d2f539-profile_image-300x300.png # Leave blank to use local portrait in assets/
 
 social:
@@ -23,7 +23,7 @@ social:
   - platform: Reddit
     handle: r/itsamity
 
-theme: flow
+theme: jam-flow
 colors:
   preset:
     3
