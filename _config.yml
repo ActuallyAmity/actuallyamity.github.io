@@ -22,6 +22,9 @@ social:
     handle: alastorkarting
   - platform: Reddit
     handle: r/itsamity
+    # ¯\_(ツ)_/¯
+  - platform: Ko-fi
+    handle: itsamity
 
 theme: jam-flow
 colors:
